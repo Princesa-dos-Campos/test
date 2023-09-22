@@ -28,8 +28,17 @@ infrastructure:
 ###
 flow_name: call
 manifest_path: null
-storage: null
-path: /home/emanuel/cd_test_pref
+storage:
+  repository: https://github.com/Princesa-dos-Campos/test
+  reference: null
+  access_token: '**********'
+  include_git_objects: true
+  _block_document_id: 91e213f5-8beb-4218-b279-90eedc9d14dc
+  _block_document_name: test
+  _is_anonymous: false
+  block_type_slug: github
+  _block_type_slug: github
+path: ''
 entrypoint: pipe/__main__.py:call
 parameter_openapi_schema:
   title: Parameters
@@ -37,6 +46,6 @@ parameter_openapi_schema:
   properties: {}
   required: null
   definitions: null
-timestamp: '2023-09-22T12:41:52.308377+00:00'
+timestamp: '2023-09-22T13:14:53.919903+00:00'
 triggers: []
 enforce_parameter_schema: null
